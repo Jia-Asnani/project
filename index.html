@@ -1,38 +1,78 @@
-<!-- add all items from grading group 1 and 2. Search for items in group 5 that refer to css f.e. author attribute value-->
-<html>
-    <head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Visit Paris">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Visit Paris: monuments, museums, restaurants and hotels.">
+	<title>Visit Paris | Home Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<section class="header-inner">
+			<a class="brand" href="index.html" title="Visit Paris home page">
+				<span class="brand-mark" aria-hidden="true"></span>
+				<span class="brand-name">Visit Paris</span>
+			</a>
+		</section>
+		<nav class="site-nav" aria-label="Primary navigation">
+			<ul class="nav-list">
+				<li><a href="index.html" aria-current="page">Home</a></li>
+				<li><a href="Monuments.html">Monuments</a></li>
+				<li><a href="Museum.html">Museums</a></li>
+				<li><a href="Restaurants.html">Restaurants</a></li>
+				<li><a href="Hotels.html">Hotels</a></li>
+				<li><a href="About.html">About us</a></li>
+			</ul>
+		</nav>
+	</header>
 
-        Website.
+	<main>
+		<section class="hero" aria-label="Night view of Paris"></section>
 
-    </head>
+		<section class="home-intro" aria-labelledby="intro-title">
+			<article class="intro-box">
+				<h1 id="intro-title">Visit Paris</h1>
+				<h2>The City of Lights</h2>
+				<p>Paris is a city with amazing European mix of culture, romance, glamour and fine cuisine. This city is known worldwide for its rich culture and history. World famous Churches, Palaces and Museums with large architectural museums to visit. Paris, famous for its magnificent architecture. World famous Eiffel Tower takes you in Paris with a view of the whole city from the top.</p>
+			</article>
+		</section>
 
-    <body> 
+		<section class="home-content" aria-label="Paris introduction">
+			<p>Monuments portray the world renowned French fashion and the historical churches. Cruising on the Seine river and strolling in the streets offer a great stroll through the city.</p>
+			<section class="home-gallery home-gallery--two" aria-label="Paris views">
+				<figure><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Paris seen from above" title="Paris seen from above"><figcaption>Paris seen from above</figcaption></figure>
+				<figure><img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Boat on the Seine with the Eiffel Tower" title="Boat on the Seine"><figcaption>Boat on the Seine</figcaption></figure>
+			</section>
 
-        body of the website. 
+			<p>Paris is also called the &ldquo;Capital of Gastronomy&rdquo; for its prestigious cuisine. The cuisine is known for its delicacy and soft flavours making it world famous. Restaurants from fine dining to traditional food to a freshly baked French croissant are easily accessible in the streets. The city is home for world renowned fashion houses of Louis Vuitton and Chanel that are symbols for elegance and luxury in the fashion industry. Paris gives numerous shopping aids for the fashion loving tourists.</p>
+			<section class="home-gallery home-gallery--five" aria-label="Paris food and fashion">
+				<figure><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="French restaurant table" title="French restaurant table"><figcaption>French restaurant table</figcaption></figure>
+				<figure><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="French food on a plate" title="French food on a plate"><figcaption>French food on a plate</figcaption></figure>
+				<figure><img src="https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Paris sky and buildings" title="Paris sky and buildings"><figcaption>Paris sky and buildings</figcaption></figure>
+				<figure><img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="People dining in Paris" title="People dining in Paris"><figcaption>People dining in Paris</figcaption></figure>
+				<figure><img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Paris building and street" title="Paris building and street"><figcaption>Paris building and street</figcaption></figure>
+			</section>
 
-        this is page 1 of the website as the home page. 
+			<section class="subscribe-row" aria-label="Subscribe"><span aria-hidden="true"></span><a href="About.html">Subscribe</a></section>
+			<aside class="next-page"><span>Next page</span><a href="Monuments.html" title="Go to monuments">&rarr;</a></aside>
+		</section>
+	</main>
 
-        there is 4 detail pages of the website. 
-
-        there is a contact page. 
-
-        there is total 6 pages in the website.
-
-        <img src = "" width = "500" height = "600">
-
-
-
-        <p align = "right"> paragraph on the right side of the page</p>
-
-        <p> footer is the short paragraph on the end of the page. </p>
-
-        
-
-
-
-    </body>
-
-
-
-
+	<footer class="site-footer">
+		<section class="footer-grid">
+			<section>
+				<p class="footer-title">Visit Paris</p>
+				<p>Paris travel guide</p>
+				<nav class="social-row" aria-label="Social links"><a href="https://www.x.com" title="Visit Paris on X">X</a><a href="https://www.instagram.com" title="Visit Paris on Instagram">◎</a><a href="https://www.youtube.com" title="Visit Paris on YouTube">▶</a><a href="https://www.linkedin.com" title="Visit Paris on LinkedIn">in</a></nav>
+			</section>
+			<section><p class="footer-title">Use cases</p><ul><li>UI design</li><li>UX design</li><li>Wireframing</li><li>Diagramming</li><li>Brainstorming</li><li>Online whiteboard</li><li>Team collaboration</li></ul></section>
+			<section><p class="footer-title">Explore</p><ul><li>Design</li><li>Prototyping</li><li>Development features</li><li>Design systems</li><li>Collaboration features</li><li>Design process</li><li>FigJam</li></ul></section>
+			<section><p class="footer-title">Resources</p><ul><li>Blog</li><li>Best practices</li><li>Colors</li><li>Color wheel</li><li>Support</li><li>Developers</li><li>Resource library</li></ul></section>
+		</section>
+		<p class="copyright">&copy; 2026 Visit Paris</p>
+	</footer>
+	<aside class="cookies" aria-label="Cookies message">This website uses cookies.</aside>
+</body>
 </html>
