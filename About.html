@@ -4,8 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="author" content="Visit Paris">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Learn about the Paris travel guide and send questions about visiting monuments, museums, restaurants and hotels.">
+		<meta name="keywords" content="Paris, travel, monuments, museums, restaurants">
 		<title>About us | Visit Paris</title>
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="icon" type="image/jpeg" href="img/visit-paris-logo.jpg">
 	</head>
 	<body>
 		<header class="site-header">
@@ -15,6 +18,8 @@
 					<span class="brand-name">Visit Paris</span>
 				</a>
 			</section>
+			<input class="nav-checkbox" id="nav-menu-toggle" type="checkbox">
+			<label class="nav-toggle" for="nav-menu-toggle">Menu</label>
 			<nav class="site-nav" aria-label="Primary navigation">
 				<ul class="nav-list">
 					<li>
@@ -46,17 +51,20 @@
 			</section>
 			<section class="split-section" aria-labelledby="story-title">
 				<article>
-					<p id="story-title">I am 26. I have lived in Europe for last 6 years, as a student. I have travelled throughout the continent. I find museum visits very interesting. I have travelled around Paris several times. I have tried to visit recommended places and recommendations through the website.</p>
+					<p id="story-title">I am Jia. I have lived in Europe for last 6 years, as a student. I have travelled throughout the continent. I find museum visits very interesting. I have travelled around Paris several times. I have tried to share my experience and recommendations under the student budget through this website.</p>
 				</article>
 				<figure class="split-image">
-					<img src="img/paris-photo-17.png" alt="A traveller beside the Seine" title="A traveller beside the Seine">
-					<figcaption>A traveller beside the Seine</figcaption>
+					<img src="img\paris-photo-10.png" alt="The Louvre courtyard in Paris" title="The Louvre courtyard in Paris">
+					<figcaption>The Louvre courtyard</figcaption>
 				</figure>
 			</section>
+			
 			<section class="form-card" aria-labelledby="query-title">
 				<h2 id="query-title">Queries</h2>
 				<p>Fill the form and ask any question about your stay in Paris. You will receive an email sent back.</p>
 				<form action="#" method="get" autocomplete="on">
+					<fieldset>
+						<legend>Ask a question</legend>
 					<section class="form-grid">
 						<label for="name">Name</label>
 						<input id="name" name="name" type="text" autocomplete="name" required>
@@ -68,7 +76,8 @@
 						<textarea id="question" name="question" required>
 						</textarea>
 					</section>
-					<button class="button" type="submit">Submit</button>
+					<input class="button" type="submit" value="Submit">
+					</fieldset>
 				</form>
 			</section>
 			<aside class="next-page">
@@ -165,7 +174,7 @@
 					</ul>
 				</section>
 			</section>
-			<p class="copyright">&copy; 2026</p>
+			<p class="copyright" title="&copy; &reg; &trade; &quot; &pound; &euro; &amp;">&copy; 2026</p>
 		</footer>
 		<aside class="cookies" aria-label="Cookies message">This website uses cookies.</aside>
 	</body>

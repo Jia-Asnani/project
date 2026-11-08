@@ -1,5 +1,5 @@
 Student name: Jia Asnani
 Student number: 763251
 Student class: A
-GitHub Repository: 
-GitHub Pages URL: 
+GitHub Repository: https://github.com/Jia-Asnani/project.git
+GitHub Pages URL: https://github.com/Jia-Asnani/project/actions/
